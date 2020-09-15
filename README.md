@@ -24,8 +24,7 @@ yarn add react-native-animated-image-list
 ### Props
 Key | Type | Default
 ----|----|----
-data | Array | [ {title : 'Title',subTitle:'Dance with',image : ''},
-  {title : 'Title',image :''}] 
+data | Array | [ {title : 'Title',subTitle:'Dance with',image : ''},{title : 'Title',image :''}] 
 height | Number | height/2
 width | Number | width-120
 title | String | Title
@@ -51,11 +50,14 @@ import AnimationFlatlist from 'react-native-animated-image-list'
 
 const { width, height } = Dimensions.get('window');
 
-let SampleData = [{title : 'Spiderman',image :'' ,subTitle:'Dance with'},
-  {title : 'Deadpool',subTitle:'Dance with',image : 'https://i.picsum.photos/id/425/200/300.jpg?hmac=P1vjZ6T-wo-aULK7NbbLYxIaV92_0q56o0BFWcWOdmo'},
+let SampleData = [
+  {title : 'Spiderman',image :'' ,subTitle:'Dance with'},
   {title : 'Stormtrooper',image :'https://i.picsum.photos/id/425/200/300.jpg?hmac=P1vjZ6T-wo-aULK7NbbLYxIaV92_0q56o0BFWcWOdmo'},
   {title : 'Woody toy',image :'https://i.picsum.photos/id/425/200/300.jpg?hmac=P1vjZ6T-wo-aULK7NbbLYxIaV92_0q56o0BFWcWOdmo'},
-  {title : 'Wolverine',image :'https://i.picsum.photos/id/425/200/300.jpg?hmac=P1vjZ6T-wo-aULK7NbbLYxIaV92_0q56o0BFWcWOdmo'}]
+  {title : 'Wolverine',image :'https://i.picsum.photos/id/425/200/300.jpg?hmac=P1vjZ6T-wo-aULK7NbbLYxIaV92_0q56o0BFWcWOdmo'}
+  ]
+
+
 const ITEM_SIZE = width-120
 const ITEM_HEIGHT = height/2
 
