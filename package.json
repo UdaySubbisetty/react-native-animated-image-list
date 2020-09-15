@@ -1,0 +1,27 @@
+{
+  "name": "react-native-animated-image-list",
+  "version": "1.0.0",
+  "description": "react native animated image list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdaySubbisetty/react-native-animated-image-list.git"
+  },
+  "keywords": [
+    "flatlist",
+    "animatedflatlist",
+    "imagelist",
+    "animatedimagelist",
+    "carousel",
+    "carousellist"
+  ],
+  "author": "Uday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UdaySubbisetty/react-native-animated-image-list/issues"
+  },
+  "homepage": "https://github.com/UdaySubbisetty/react-native-animated-image-list#readme"
+}
